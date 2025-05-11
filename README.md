@@ -73,17 +73,20 @@ chmod +x setup_dns_firewall.sh
 ### 4️⃣ Test it
 
 nslookup facebook.com 127.0.0.1     # Should be blocked (NXDOMAIN)
+
 nslookup google.com 127.0.0.1       # Should be allowed
 
 # Logs:
 
-tail -f ~/dnsfirewall/dns_firewall.log
+tail -f ~/Linux_Proxy_Firewall_DNS/dns_firewall.log
 
 
 ## ✅ Example domain.txt
 
 facebook.com
+
 ads.google.com
+
 malware-site.com
 
 👉 Add any domain name (one per line) to block it.
@@ -92,8 +95,10 @@ malware-site.com
 
 ## ✅ Uninstall (fully restore system)
 
-cd ~/dnsfirewall
+cd ~/Linux_Proxy_Firewall_DNS
+
 chmod +x uninstall_dns_firewall.sh
+
 ./uninstall_dns_firewall.sh
 
 Restores:
