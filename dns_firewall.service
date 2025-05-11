@@ -1,0 +1,12 @@
+[Unit]
+Description=Python DNS Firewall Service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/YOUR_USERNAME/dnsfirewall/dns_firewall_linux.py
+WorkingDirectory=/home/YOUR_USERNAME/dnsfirewall
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
