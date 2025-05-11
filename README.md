@@ -63,7 +63,9 @@ Save as:
 ### 3️⃣ Run setup script
 
 cd ~/Linux_Proxy_Firewall_DNS
+
 chmod +x setup_dns_firewall.sh
+
 ./setup_dns_firewall.sh
 
 ✅ Your DNS firewall is now active.
