@@ -54,7 +54,7 @@ pip3 install dnslib
 ### 2️⃣ Edit dns_firewall.service and Copy to the mentioned path
 
 
-👉 Replace `/home/ubuntu` with your actual full path.
+👉 Replace `/home/YOUR_USERNAME` with your actual full path.
 
 Save as:
 
@@ -62,7 +62,7 @@ Save as:
 
 ### 3️⃣ Run setup script
 
-cd ~/dnsfirewall
+cd ~/Linux_Proxy_Firewall_DNS
 chmod +x setup_dns_firewall.sh
 ./setup_dns_firewall.sh
 
