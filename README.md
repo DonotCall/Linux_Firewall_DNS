@@ -51,7 +51,7 @@ pip3 install dnslib
 
 ### 1️⃣ Place all files inside folder: `dnsfirewall`
 
-### 2️⃣ Edit systemd service and Copy to the mentioned path
+### 2️⃣ Edit dns_firewall.service and Copy to the mentioned path
 
 
 👉 Replace `/home/ubuntu` with your actual full path.
